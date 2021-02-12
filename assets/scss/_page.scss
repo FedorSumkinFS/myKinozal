@@ -10,11 +10,14 @@
     border-top-right-radius: 0;
     border-color: #dddddd;
     background-color: #f1f1f1;
-    // padding: 19px;
 }
 &__wrapper {
     &:not(:last-child) {
         margin-right: $gap;
     }
         }
+}
+.film-comments__btn {
+    margin-top: $gap;
+    float: right;
 }
