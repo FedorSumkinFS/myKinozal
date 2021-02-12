@@ -1,0 +1,30 @@
+.footer  {
+    &-elements {
+        
+    }
+    &-first {
+        width: 25%;
+        float: left;
+    }
+    &-second {
+        width: 25%;
+    }
+    &-third {
+        width: 25%;
+    }
+    &-fourth {
+        widows: 25%;
+    }
+    padding-top: 45px;
+    background-color: #232323;
+    a {
+        color: #777;
+    }
+
+    &-fifth {
+        color: #fff;
+       text-align: center;
+       font-weight: bold;
+       padding: 20px 0;
+    }
+}
