@@ -92,8 +92,6 @@ h1::after {
 
 h2 {
   font-family: "PT Serif", serif;
-  font-size: 2.5rem;
-  margin: 60px 0 45px 45px;
 }
 
 h2::before {
@@ -217,6 +215,10 @@ section {
   margin-bottom: 0;
 }
 
+.main .film-news-item__image {
+  width: 100%;
+}
+
 .main .film-news-item__text {
   text-align: justify;
 }
@@ -227,7 +229,7 @@ section {
 }
 
 .main .film-news-item:hover .thumbnail {
-  background-color: #df8a13;
+  background-color: #f0ad4f;
 }
 
 .main .film-news-item:hover h3 > a {
@@ -257,6 +259,10 @@ section {
   border-top-right-radius: 0;
   border-color: #dddddd;
   background-color: #f1f1f1;
+}
+
+.film-info__wrapper {
+  white-space: nowrap;
 }
 
 .film-info__wrapper:not(:last-child) {
@@ -410,40 +416,42 @@ section {
 .footer {
   padding-top: 45px;
   background-color: #232323;
+  padding-bottom: 72px;
 }
 
-.footer-first {
-  width: 25%;
-  float: left;
-}
-
-.footer-second {
-  width: 25%;
-}
-
-.footer-third {
-  width: 25%;
-}
-
-.footer-fourth {
-  widows: 25%;
+.footer ul {
+  padding: 0;
+  list-style: none;
 }
 
 .footer a {
-  color: #777;
+  color: #777777;
+}
+
+.footer a:hover {
+  color: white;
 }
 
 .footer-fifth {
-  color: #fff;
+  margin: 20px 0;
   text-align: center;
-  font-weight: bold;
-  padding: 20px 0;
+}
+
+.footer-fifth a {
+  color: #fbfbfb;
 }
 
 @media (min-width: 576px) {
   h1 {
     margin: -7.5px 0 45px;
     font-size: 3rem;
+  }
+  h2 {
+    margin: 60px 0 45px 45px;
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
   .header-logo__title {
     font-size: 3.5rem;
@@ -480,6 +488,13 @@ section {
   h1 {
     margin: 0 0 30px;
     font-size: 2rem;
+  }
+  h2 {
+    margin: 45px 0 30px 45px;
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
   }
   .header-logo__title {
     font-size: 2.5rem;
