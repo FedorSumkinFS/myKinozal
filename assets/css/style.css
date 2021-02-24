@@ -191,6 +191,7 @@ section {
 
 .main .new-films-item__thumbnail:hover,
 .main .top-films-item__thumbnail:hover {
+  border-color: #df8a13;
   background: #df8a13;
 }
 
@@ -213,6 +214,9 @@ section {
 
 .main .film-news-item .thumbnail {
   margin-bottom: 0;
+  -webkit-transition: background-color 0.25s;
+  -o-transition: background-color 0.25s;
+  transition: background-color 0.25s;
 }
 
 .main .film-news-item__image {
@@ -340,7 +344,7 @@ section {
 .site-news-item__date {
   text-align: right;
   font-size: 0.8rem;
-  color: darken #dddddd, 30%;
+  color: #909090;
 }
 
 .site-news-item:hover a {

@@ -33,6 +33,7 @@
         margin-bottom: 0;
 
         &:hover {
+          border-color: $color-accent;
           background: $color-accent;
         }
       }
@@ -52,6 +53,8 @@
     &-item {
       .thumbnail {
         margin-bottom: 0;
+
+        transition: background-color 0.25s;;
       }
     &__image {
       width: 100%;
